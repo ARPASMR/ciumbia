@@ -1,4 +1,6 @@
-./tmp/*
-./log/*
-./archivio/*
+tmp/
+log/
+archivio/
+*.xml
+*.txt
 

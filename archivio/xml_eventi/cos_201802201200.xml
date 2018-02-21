@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding="iso-8859-1" ?>
+<ARPALombardiaComuniForecast>
+<comune id="146" prov="015" oraUTC="12-18" data="20180220" icona="01" precipitazione="  0.0" Tmin="  4.2" Tmax="  7.4" ModVento="  1.2" DirVento=" 136.78">
+<comune id="146" prov="015" oraUTC="18-24" data="20180220" icona="03" precipitazione="  0.0" Tmin="  2.4" Tmax="  4.2" ModVento="  1.1" DirVento=" 336.33">
+<comune id="146" prov="015" oraUTC="00-06" data="20180221" icona="03" precipitazione="  0.0" Tmin="  0.6" Tmax="  2.4" ModVento="  2.1" DirVento=" 335.22">
+<comune id="146" prov="015" oraUTC="06-12" data="20180221" icona="02" precipitazione="  0.0" Tmin="  0.4" Tmax="  8.0" ModVento="  0.4" DirVento="  18.11">
+<comune id="146" prov="015" oraUTC="12-18" data="20180221" icona="03" precipitazione="  0.0" Tmin="  6.2" Tmax="  8.9" ModVento="  1.1" DirVento=" 255.54">
+<comune id="146" prov="015" oraUTC="18-24" data="20180221" icona="03" precipitazione="  0.0" Tmin="  3.3" Tmax="  6.2" ModVento="  1.0" DirVento=" 339.75">
+<comune id="146" prov="015" oraUTC="00-06" data="20180222" icona="03" precipitazione="  0.0" Tmin="  2.2" Tmax="  3.3" ModVento="  1.5" DirVento=" 336.66">
+<comune id="146" prov="015" oraUTC="06-12" data="20180222" icona="03" precipitazione="  0.0" Tmin="  2.1" Tmax="  6.5" ModVento="  2.7" DirVento=" 159.18">
+<comune id="146" prov="015" oraUTC="12-18" data="20180222" icona="04" precipitazione="  0.9" Tmin="  4.1" Tmax="  6.4" ModVento="  2.3" DirVento=" 111.94">
+<comune id="146" prov="015" oraUTC="18-24" data="20180222" icona="13" precipitazione="  1.2" Tmin="  3.4" Tmax="  4.1" ModVento="  1.2" DirVento=" 214.11">
+<comune id="146" prov="015" oraUTC="00-06" data="20180223" icona="13" precipitazione="  1.7" Tmin="  1.6" Tmax="  3.4" ModVento="  1.0" DirVento=" 149.77">
+<comune id="146" prov="015" oraUTC="06-12" data="20180223" icona="13" precipitazione="  2.2" Tmin="  1.2" Tmax="  4.3" ModVento="  1.9" DirVento=" 239.07">
+</ARPALombardiaComuniForecast>

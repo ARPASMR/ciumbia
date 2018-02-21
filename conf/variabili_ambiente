@@ -1,0 +1,24 @@
+###	nomi logici
+export BOLOGNONE="10.10.49.200"
+export SINERGICO="10.10.49.202"
+export LIBERTARIO="10.10.49.203"
+export MILANONE="10.10.49.204"
+export PREVISORE="10.10.0.10"
+export ECCELLENTE="10.10.49.201"
+export APPRENDISTA="10.10.0.14"
+
+###	variabili ambiente
+export home_dir=/home/meteo
+export binciu_dir=$home_dir/ciumbia/bin
+export bin_dir=$home_dir/bin
+export conf_dir=$home_dir/ciumbia/conf
+export fun_dir=$home_dir/ciumbia/bin/functions
+export tmp_dir=$home_dir/tmp
+export log_dir=$home_dir/log
+
+#variabili per la produzione delle previsioni sui comuni
+#con ciumbia
+export TMPCIU=$home_dir/ciumbia/tmp
+export XMLCIU=$home_dir/ciumbia/archivio/xml
+
+

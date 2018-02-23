@@ -13,7 +13,7 @@ Utilizzi meno frequenti riguardano la richiesta di previsioni per eventi e siti 
 
 La nuova versione, messa a punto da Riccardo Bonanno e ultimata da Matteo Zanetti, è presente su Gagliardo (10.10.0.15) nella cartella "ciumbia" al path "/home/meteo"
 
-## Com'è strutturato Ciumbia?
+## Com'è strutturato Ciumbia 2.0?
 
 Il processo è costruito per "girare" due volte al giorno una volta ultimati i processi di acquisizione dei principali modelli che vengono utilizzati. I file xml prodotti sono definiti quindi in base ai dati del modello di origine e alla data della "corsa". 
 Es: ecmwf_201802190012 (dati dal modello ecmwf del giorno 19 febbraio 2018 con corsa delle ore 12:00)

@@ -20,7 +20,12 @@ Es: ecmwf_201802190012 (dati dal modello ecmwf del giorno 19 febbraio 2018 con c
 
 ## Uso di Ciumbia
 ```
-inserire qui un esempio di run di Ciumbia
+Line 491: <comune id="146" prov="015" oraUTC="00-06" data="20180309" icona="03" precipitazione="  0.0" Tmin="  4.6" Tmax="  7.8" ModVento="  0.8" DirVento=" 231.09">
+	Line 2037: <comune id="146" prov="015" oraUTC="06-12" data="20180309" icona="02" precipitazione="  0.0" Tmin="  4.7" Tmax=" 11.4" ModVento="  0.9" DirVento=" 201.78">
+	Line 3583: <comune id="146" prov="015" oraUTC="12-18" data="20180309" icona="03" precipitazione="  0.0" Tmin=" 10.2" Tmax=" 12.3" ModVento="  0.8" DirVento=" 343.30">
+	Line 5129: <comune id="146" prov="015" oraUTC="18-24" data="20180309" icona="04" precipitazione="  0.0" Tmin="  8.0" Tmax=" 10.2" ModVento="  1.6" DirVento="  18.94">
+	Line 6675: <comune id="146" prov="015" oraUTC="00-06" data="20180310" icona="04" precipitazione="  0.5" Tmin="  7.1" Tmax="  8.0" ModVento="  1.0" DirVento="  34.12">
+	Line 8221: <comune id="146" prov="015" oraUTC="06-12" data="20180310" icona="13" precipitazione="  2.6" Tmin="  6.9" Tmax="  8.0" ModVento="  0.6" DirVento="  70.49">
 ```
 
 ## Crontab

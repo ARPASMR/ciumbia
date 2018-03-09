@@ -18,7 +18,7 @@ La nuova versione, messa a punto da Riccardo Bonanno e ultimata da Matteo Zanett
 Il processo è costruito per "girare" due volte al giorno una volta ultimati i processi di acquisizione dei principali modelli che vengono utilizzati. I file xml prodotti sono definiti quindi in base ai dati del modello di origine e alla data della "corsa". 
 Es: ecmwf_201802190012 (dati dal modello ecmwf del giorno 19 febbraio 2018 con corsa delle ore 12:00)
 
-[Vedi la struttura di CIUMBIA](ciumbia/Ciumbia_structure_EC_COSMO5M.pdf)
+[Vedi la struttura di CIUMBIA](https://github.com/ARPASMR/ciumbia/blob/master/Ciumbia_structure_EC_COSMO5M.pdf)
 
 ## Uso di Ciumbia
 ```

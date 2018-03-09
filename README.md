@@ -18,6 +18,8 @@ La nuova versione, messa a punto da Riccardo Bonanno e ultimata da Matteo Zanett
 Il processo è costruito per "girare" due volte al giorno una volta ultimati i processi di acquisizione dei principali modelli che vengono utilizzati. I file xml prodotti sono definiti quindi in base ai dati del modello di origine e alla data della "corsa". 
 Es: ecmwf_201802190012 (dati dal modello ecmwf del giorno 19 febbraio 2018 con corsa delle ore 12:00)
 
+[Vedi la struttura di CIUMBIA](ciumbia/Ciumbia_structure_EC_COSMO5M.pdf)
+
 ## Uso di Ciumbia
 ```
 Line 491: <comune id="146" prov="015" oraUTC="00-06" data="20180309" icona="03" precipitazione="  0.0" Tmin="  4.6" Tmax="  7.8" ModVento="  0.8" DirVento=" 231.09">

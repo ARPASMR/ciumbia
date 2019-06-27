@@ -211,13 +211,13 @@ else
 		/home/meteo/ciumbia/bin/xml4milano.sh ecmwf_${stringarun}00.xml		
 		# # copia l'xml completo su Previsore
 		cd ${local_diroutput}
-		smbclient //10.10.0.10/f -U ARPA/meteo%%meteo2010 -c 'cd precompilazione\Prov; prompt; mput '"ecmwf_${stringarun}00.xml"
+		smbclient //10.10.0.10/f -U ARPA/<user>%<password> -c 'cd precompilazione\Prov; prompt; mput '"ecmwf_${stringarun}00.xml"
 		# #gpm-commentato-il-20160616 scp previ_expo.xml meteoweb@172.16.1.10:/var/www/meteo/expo/xml
 		# #scp cosmo_${modelrun}.xml meteoweb@172.16.1.10:/var/www/meteo/expo/meteo_expo_xml
 		# # copia l'xml di Milano su Previsore e su #webserver
 		cd ${local_diroutput_eventi}
-		# #gpm-commentato-il-20160616 smbclient //10.10.0.10/f -U ARPA/meteo%%meteo2010 -c 'cd precompilazione\xml; prompt; mput '"cosex_${modelrun}.xml"
-		smbclient //10.10.0.10/f -U ARPA/meteo%%meteo2010 -c 'cd precompilazione\eventi; prompt; mput '"ecm_${stringarun}00.xml"
+		# #gpm-commentato-il-20160616 smbclient //10.10.0.10/f -U ARPA/<user>%<password> -c 'cd precompilazione\xml; prompt; mput '"cosex_${modelrun}.xml"
+		smbclient //10.10.0.10/f -U ARPA/<user>%<password> -c 'cd precompilazione\eventi; prompt; mput '"ecm_${stringarun}00.xml"
 		# #gpm-commentato-il-20160616 scp cosex_${modelrun}.xml meteoweb@172.16.1.10:/var/www/meteo/expo/meteo_expo_xml
 		# #scp cosis_${modelrun}.xml meteoweb@172.16.1.10:/var/www/meteo/iseo/xml
 	 fi
@@ -277,16 +277,16 @@ else
 		# produce xml con solo Comune di Milano
 		/home/meteo/ciumbia/bin/xml4milano.sh cosmo_${stringarun}00.xml	
 		#cd ${local_diroutput_eventi}
-		#smbclient //10.10.0.10/f -U ARPA/meteo%%meteo2010 -c 'cd precompilazione\eventi; prompt; mput '"cos_${stringarun}.xml"		
+		#smbclient //10.10.0.10/f -U ARPA/<user>%<password> -c 'cd precompilazione\eventi; prompt; mput '"cos_${stringarun}.xml"		
 		# copia l'xml completo su Previsore
 		cd ${local_diroutput}
-		smbclient //10.10.0.10/f -U ARPA/meteo%%meteo2010 -c 'cd precompilazione\Prov; prompt; mput '"cosmo_${stringarun}00.xml"
+		smbclient //10.10.0.10/f -U ARPA/<user>%<password> -c 'cd precompilazione\Prov; prompt; mput '"cosmo_${stringarun}00.xml"
 		# gpm-commentato-il-20160616 scp previ_expo.xml meteoweb@172.16.1.10:/var/www/meteo/expo/xml
 		# scp cosmo_${modelrun}.xml meteoweb@172.16.1.10:/var/www/meteo/expo/meteo_expo_xml
 		# copia l'xml di Milano su Previsore e su #webserver
 		cd ${local_diroutput_eventi}
-		smbclient //10.10.0.10/f -U ARPA/meteo%%meteo2010 -c 'cd precompilazione\eventi; prompt; mput '"cos_${stringarun}00.xml"
-		# gpm-commentato-il-20160616 smbclient //10.10.0.10/f -U ARPA/meteo%%meteo2010 -c 'cd precompilazione\xml; prompt; mput '"cosex_${modelrun}.xml"
+		smbclient //10.10.0.10/f -U ARPA/<user>%<password> -c 'cd precompilazione\eventi; prompt; mput '"cos_${stringarun}00.xml"
+		# gpm-commentato-il-20160616 smbclient //10.10.0.10/f -U ARPA/<user>%<password> -c 'cd precompilazione\xml; prompt; mput '"cosex_${modelrun}.xml"
 		# gpm-commentato-il-20160616 scp cosex_${modelrun}.xml meteoweb@172.16.1.10:/var/www/meteo/expo/meteo_expo_xml
 		# scp cosis_${modelrun}.xml meteoweb@172.16.1.10:/var/www/meteo/iseo/xml
  fi

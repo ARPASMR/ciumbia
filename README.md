@@ -21,7 +21,7 @@ Es: ecmwf_201802190012 (dati dal modello ecmwf del giorno 19 febbraio 2018 con c
 [Vedi la struttura di CIUMBIA](https://github.com/ARPASMR/ciumbia/blob/master/Ciumbia_structure_EC_COSMO5M.pdf)
 
 ## Aggiunta interpolazione stazioni per Iris 
-Al flusso dati di della struttora originaria è stato aggiunto il modulo di interpolazione sulle stazioni per Iris. Il modulo è autoconsistente e non interferisce con le interpolazionni sui comuni, unico vincolo è che siano presenti e aggiornati in ciumbia/tmp/ i file ritagliati dal COSMO5 (surf_C5M.nc) o ECMWF (surf_EC.nc)       
+Al flusso dati di della struttora originaria è stato aggiunto il modulo di interpolazione sulle stazioni per Iris. Il modulo è autoconsistente e non interferisce con le interpolazioni sui comuni, unico vincolo è che siano presenti in ciumbia/tmp/ i file ritagliati dal COSMO5 (surf_C5M.nc) o ECMWF (surf_EC.nc) per l'interpolazione sui comuni.       
 ## Uso di Ciumbia
 ```
 Line 491: <comune id="146" prov="015" oraUTC="00-06" data="20180309" icona="03" precipitazione="  0.0" Tmin="  4.6" Tmax="  7.8" ModVento="  0.8" DirVento=" 231.09">

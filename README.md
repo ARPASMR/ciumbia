@@ -20,6 +20,8 @@ Es: ecmwf_201802190012 (dati dal modello ecmwf del giorno 19 febbraio 2018 con c
 
 [Vedi la struttura di CIUMBIA](https://github.com/ARPASMR/ciumbia/blob/master/Ciumbia_structure_EC_COSMO5M.pdf)
 
+## Aggiunta interpolazione stazioni per Iris 
+Al flusso dati di della struttora originaria è stato aggiunto il modulo di interpolazione sulle stazioni per Iris. Il modulo è autoconsistente e non interferisce con le interpolazionni sui comuni, unico vincolo è che siano presenti e aggiornati in ciumbia/tmp/ i file ritagliati dal COSMO5 (surf_C5M.nc) o ECMWF (surf_EC.nc)       
 ## Uso di Ciumbia
 ```
 Line 491: <comune id="146" prov="015" oraUTC="00-06" data="20180309" icona="03" precipitazione="  0.0" Tmin="  4.6" Tmax="  7.8" ModVento="  0.8" DirVento=" 231.09">
@@ -29,6 +31,17 @@ Line 491: <comune id="146" prov="015" oraUTC="00-06" data="20180309" icona="03" 
 	Line 6675: <comune id="146" prov="015" oraUTC="00-06" data="20180310" icona="04" precipitazione="  0.5" Tmin="  7.1" Tmax="  8.0" ModVento="  1.0" DirVento="  34.12">
 	Line 8221: <comune id="146" prov="015" oraUTC="06-12" data="20180310" icona="13" precipitazione="  2.6" Tmin="  6.9" Tmax="  8.0" ModVento="  0.6" DirVento="  70.49">
 ```
+
+## Eventuale run manuale dell'inperpolazione per Iris
+Per lanciare a mano l'interpolazione stazioni per Iris:
+Settare variabili d'ambiente 
+. XXXXXX/ciumbia/conf/variabili_ambiente_tempo_su_Iris
+
+Portarsi nella dir dello script  tempo_su_griglia_Iris.R 
+cd XXXXXX/ciumbia/bin/functions
+
+Eseguire lo script R 
+Rscript tempo_su_griglia_Iris.R
 
 ## Crontab
 In gagliardo il processo crontab è il seguente:

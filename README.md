@@ -32,7 +32,7 @@ Line 491: <comune id="146" prov="015" oraUTC="00-06" data="20180309" icona="03" 
 	Line 8221: <comune id="146" prov="015" oraUTC="06-12" data="20180310" icona="13" precipitazione="  2.6" Tmin="  6.9" Tmax="  8.0" ModVento="  0.6" DirVento="  70.49">
 ```
 
-## Eventuale run manuale dell'inperpolazione per Iris
+## Eventuale run manuale dell'interpolazione per Iris
 Per lanciare a mano l'interpolazione stazioni per Iris:
 Settare variabili d'ambiente 
 . XXXXXX/ciumbia/conf/variabili_ambiente_tempo_su_Iris

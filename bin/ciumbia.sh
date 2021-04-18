@@ -291,7 +291,12 @@ else
 		# scp cosis_${modelrun}.xml meteoweb@172.16.1.10:/var/www/meteo/iseo/xml
  fi
 # ------------------- FINE COPIATURA ----------------------------------------------
+# eseguo script tempo_su_griglia_Iris.R per interpolare T e V di cosmo_5m sui punti stazione della rete IMN.  
 
+. /home/meteo/ciumbia/conf/variabili_ambiente_tempo_su_Iris
+cd $fun_dir
+Rscript tempo_su_griglia_Iris.R
+cd- 
   fi
 fi
 

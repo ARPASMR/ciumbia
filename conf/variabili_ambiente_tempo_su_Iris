@@ -1,0 +1,10 @@
+### aggiornamento path e lib per psql e gdal
+export LD_LIBRARY_PATH=/home/meteo/lib_per_R/lib:/usr/pgsql-9.6/lib:$LD_LIBRARY_PATH
+export PATH=/home/meteo/lib_per_R/bin:$PATH
+
+
+#variabili per la connessione al db Iris su SINERGICO3.
+export HOST_dbIRS='10.10.0.19'
+export PORT_dbIRS=5432
+export USER_dbIRS=XXXXXX
+export PASS_dbIRS=XXXXXX
